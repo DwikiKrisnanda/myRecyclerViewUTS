@@ -86,4 +86,3 @@ public class GridActivity extends RecyclerView.Adapter<GridActivity.GridViewHold
         }
     }
 }
-

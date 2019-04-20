@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         initImageBitmaps();
 
         if (savedInstanceState == null) {
-            setActionBarTitle("Mode List");
+            setActionBarTitle("Manchester City Squad 2018/2019");
             showListActivity();
             mode = R.id.action_list;
         } else {

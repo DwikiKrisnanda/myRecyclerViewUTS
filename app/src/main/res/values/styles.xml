@@ -5,11 +5,11 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/buttonShare</item>
     </style>
 
     <style name="buttonstyle1" parent="Theme.AppCompat.Light">
-        <item name="colorButtonNormal">@color/orange</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 
 </resources>

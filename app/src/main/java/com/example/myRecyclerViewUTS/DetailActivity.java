@@ -18,8 +18,6 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.layout_detail);
 
         getIncomingIntent();
-
-
     }
 
     private void getIncomingIntent(){
@@ -35,7 +33,6 @@ public class DetailActivity extends AppCompatActivity {
 
             setImage(Link,Nama,Posisi,Umur,WargaNegara,No,Detail);
         }
-
     }
 
     private void setImage(String Link, String Nama, String Posisi, String Umur, String WargaNegara, String No, String Detail){
