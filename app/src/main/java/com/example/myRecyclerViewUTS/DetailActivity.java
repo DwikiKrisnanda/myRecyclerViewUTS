@@ -52,7 +52,7 @@ public class DetailActivity extends AppCompatActivity {
         TextView det = findViewById(R.id.img_detailPemain);
         det.setText(Detail);
 
-        ImageView gambarDetail = findViewById(R.id.imageCardView);
+        ImageView gambarDetail = findViewById(R.id.imagePemain);
         Glide.with(this)
                 .asBitmap()
                 .load(Link)

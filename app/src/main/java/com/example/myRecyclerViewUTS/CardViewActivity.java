@@ -114,7 +114,7 @@ public class CardViewActivity extends RecyclerView.Adapter<CardViewActivity.View
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            gambarCardView = itemView.findViewById(R.id.imageCardView);
+            gambarCardView = itemView.findViewById(R.id.imagePemain);
             namaPemainCardView = itemView.findViewById(R.id.namaCardView);
             posisiPemainCardView = itemView.findViewById(R.id.posisiCardView);
             parentLayout = itemView.findViewById(R.id.parent_layout);

@@ -18,7 +18,7 @@
 
 
             <ImageView
-                android:id="@+id/imageCardView"
+                android:id="@+id/imagePemain"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:layout_alignParentTop="true"
@@ -31,7 +31,7 @@
                 android:id="@+id/img_namaPemain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageCardView"
+                android:layout_below="@+id/imagePemain"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="13dp"
                 android:fontFamily="@font/roboto_black"
@@ -44,7 +44,7 @@
                 android:id="@+id/img_noPemain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageCardView"
+                android:layout_below="@+id/imagePemain"
                 android:layout_alignParentEnd="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="33dp"
