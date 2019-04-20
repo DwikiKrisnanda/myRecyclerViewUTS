@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp">
+
+
+            <ImageView
+                android:id="@+id/imageCardView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_weight="70"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/img_namaPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageCardView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:fontFamily="@font/roboto_black"
+                android:text="NAMA PEMAIN"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/img_noPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageCardView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="55dp"
+                android:fontFamily="@font/roboto_black"
+                android:text="31"
+                android:textColor="#000"
+                android:textSize="50sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/img_judulDetailPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_judulWargaNegara"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto_black"
+                android:text="Detail Pemain"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/img_detailPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_judulDetailPemain"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+
+                android:fontFamily="@font/roboto"
+                android:text="Detail Pemain"
+                android:textColor="@color/fontAbu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_judulPosisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_namaPemain"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+
+                android:fontFamily="@font/roboto"
+                android:text="Posisi :"
+                android:textColor="@color/fontAbu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_judulNoPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_namaPemain"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="127dp"
+                android:fontFamily="@font/roboto"
+                android:text="No :"
+                android:textColor="@color/fontAbu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_judulUmur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_judulPosisi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+
+                android:fontFamily="@font/roboto"
+                android:text="Umur :"
+                android:textColor="@color/fontAbu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_posisiPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_namaPemain"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_judulPosisi"
+                android:fontFamily="@font/roboto"
+                android:text="Posisi"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_umurPemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_posisiPemain"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@+id/img_judulUmur"
+                android:fontFamily="@font/roboto"
+                android:text="Umur"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_wargaNegara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_umurPemain"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_judulWargaNegara"
+                android:fontFamily="@font/roboto"
+                android:text="Warga Negara"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/img_judulWargaNegara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_judulUmur"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+
+                android:fontFamily="@font/roboto"
+                android:text="Warga Negara :"
+                android:textColor="@color/fontAbu"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
